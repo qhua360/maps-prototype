@@ -22,13 +22,15 @@
 </h1>
 
 <h2>
-  Angular Component
+  Angular Component (requires v9 or newer)
 </h2>
 <google-map [options]="options">
   <map-marker *ngFor="let markerPosition of markerPositions"
               [position]="markerPosition"
               [options]="markerOptions"></map-marker>
 </google-map>
+
+<p>Currently, there is no angular component for streetview</p>
 
 <h2>
   Direct HTML
